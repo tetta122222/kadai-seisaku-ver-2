@@ -6,9 +6,10 @@ var next_page = $('#next_page');
 var a = $(".page1");
 let pageCount;
 var ajax = new XMLHttpRequest();
-ajax.open("get", "https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=a6ca5ebe6caee435e9c312d71da36e3f&pref=PREF46&hit_per_page=100&id");
+ajax.open("get", "https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=5aca6cc18a0f24786df3e9e16531427e&pref=PREF46&hit_per_page=100&id");
 ajax.responseType = 'json';
 ajax.send();
+	
 
 
 $(function () {
